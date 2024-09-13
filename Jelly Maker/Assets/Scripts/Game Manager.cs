@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public Sprite[] JellySpriteList;
+    public string[] JellyNameList;
+    public int[] JellyJelatinList;
     public int[] JellyGoldList;
+
     public Vector3[] PointList;
 
     public RuntimeAnimatorController[] LevelAC;
